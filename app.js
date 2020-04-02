@@ -12,8 +12,7 @@ const errorController = require('./controllers/error');
 const User = require('./models/user');
 
 const MONGODB_URI =
-'mongodb+srv://bambihswd:hswd@cluster0-vygso.mongodb.net/shop?authSource=admin&replicaSet=Cluster0-shard-0&w=majority&readPreference=primary&appname=MongoDB%20Compass&retryWrites=true&ssl=true';
-
+ 'mongodb+srv://radu:hswd@cluster0-vygso.mongodb.net/test?retryWrites=true&w=majority'
 const app = express();
 const store = new MongoDBStore({
   uri: MONGODB_URI,
